@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Personal Information Form</h2>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="father_name">Father's Name</label>
+        <input type="text" id="father_name" name="father_name" required>
+
+        <label for="mother_name">Mother's Name</label>
+        <input type="text" id="mother_name" name="mother_name" required>
+
+        <label for="contact_number">Contact Number</label>
+        <input type="tel" id="contact_number" name="contact_number" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label>Address</label>
+        <input type="text" id="house_number" name="house_number" placeholder="House Number" required>
+        <input type="text" id="address_line1" name="address_line1" placeholder="Address Line 1" required>
+        <input type="text" id="address_line2" name="address_line2" placeholder="Address Line 2" required>
+        <input type="text" id="address_line3" name="address_line3" placeholder="Address Line 3">
+
+        <label for="place_of_birth">Place of Birth</label>
+        <input type="text" id="place_of_birth" name="place_of_birth" required>
+
+        <label for="village_name">Village Name</label>
+        <input type="text" id="village_name" name="village_name" required>
+
+        <label for="sub_district">Sub District</label>
+        <input type="text" id="sub_district" name="sub_district" required>
+
+        <label for="police_station">Police Station</label>
+        <input type="text" id="police_station" name="police_station" required>
+
+        <label for="tribe">Tribe</label>
+        <input type="text" id="tribe" name="tribe" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
